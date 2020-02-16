@@ -96,3 +96,8 @@ BUG_REPORT_URL="https://bugs.alpinelinux.org/"
 - In bash: `${VAR: -3:1}` would slice string like in Python `VAR[-3:-2]`
 - `shuf -i 1-100 -n1` would output a random number in range 1-100
 - `uuid` to generate UUID
+
+## References
+- Overlayfs: https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs/
+- Containerd: https://www.docker.com/blog/what-is-containerd-runtime/
+- Runc: https://www.docker.com/blog/runc/
