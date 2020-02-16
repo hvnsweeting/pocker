@@ -92,5 +92,5 @@ BUG_REPORT_URL="https://bugs.alpinelinux.org/"
 - In bash `: ${ENV_VAR1} && echo $ENV_VAR1` - `:` is no-op operator, but would expand vars.
 - In bash: `${VAR: -3}` would slice string like in Python `VAR[-3:]`
 - In bash: `${VAR: -3:1}` would slice string like in Python `VAR[-3:-2]`
-- `shuf -i 1 100 -n1` would output a random number
+- `shuf -i 1-100 -n1` would output a random number in range 1-100
 - `uuid` to generate UUID
