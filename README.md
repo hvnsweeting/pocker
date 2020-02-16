@@ -16,6 +16,8 @@ Inspired by [bocker](https://github.com/p8952/bocker)
 - Change subprocess.call to Popen to handle errors.
 - Pythonize.
 - Add remaining commands.
+- Write another version use lib `ctypes` and call C lib directly instead of using `subprocess`.
+- Write another version use Cython and call C lib directly instead of using `subprocess`.
 
 ### How to use
 
